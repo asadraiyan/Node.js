@@ -25,6 +25,9 @@ app.get("/", (req, res) => {
 app.get("/about", (req, res) => {
     res.send("This is about page of my first express app")
 })
+app.get("/contact", (req, res) => {
+    res.send("This is contact page of my first express app")
+})
 app.post("/about", (req, res) => {
     res.send("This is post request of about page of my first express app")
 })
